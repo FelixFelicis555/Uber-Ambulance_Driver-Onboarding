@@ -17,3 +17,5 @@ const userSchema = new mongoose.Schema({
 });
 
 userSchema.plugin(passportLocalMongoose);
+
+// Plugins area tool for reusing logic in multiple schemas
